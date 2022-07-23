@@ -9,4 +9,4 @@ Also, the extension has an option to exclude [query string](https://en.wikipedia
 
 Raw: https://hbr.org/2020/10/use-gratitude-to-counter-stress-and-uncertainty?utm_medium=social&utm_campaign=hbr&utm_source=facebook&tpcc=orgsocial_edit&fbclid=IwAR3aKyxy5OGRo_cqkZ7KlHSgoMSzSflAFe1I0Hc81BvL3GSW826mKvsX2Y4
 
-Formatted (query string excluded): [Use Gratitude to Counter Stress and Uncertainty](https://hbr.org/2020/10/use-gratitude-to-counter-stress-and-uncertainty)
+Formatted: [Use Gratitude to Counter Stress and Uncertainty](https://hbr.org/2020/10/use-gratitude-to-counter-stress-and-uncertainty)
