@@ -45,7 +45,7 @@ async function readLocalStorage(key) {
     const tabTitle = tab.title;
         
     markdownOutput = `[${tabTitle}](${tabUrl})`;
-    markdownOutputNoQueryString = markdownOutput.split("?")[0] + ")";
+    markdownOutputNoQueryString = `[${tabTitle}](${tabUrl.split("?")[0]})`;
 
     copyQueryStringButton.dataset.status = copyQueryStringStatus;
 
