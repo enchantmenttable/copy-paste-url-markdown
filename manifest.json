@@ -1,0 +1,25 @@
+{
+    "name": "Copy & Paste URL Markdown",
+    "version": "0.5",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "src/js/background.js"
+    },
+    "action": {
+        "default_popup": "src/html/popup.html"
+    },
+    "icons" : {
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "windows": "Alt+C",
+                "mac": "MacCtrl+C"
+            }
+        }
+    }
+}

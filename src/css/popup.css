@@ -1,0 +1,19 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+    width: 270px;
+    animation: fadein 1s;
+    font-size: 0.9em;
+}
+
+#announcement {
+    margin-bottom: 8px;
+    white-space: pre;
+}
+
+#copy-query-string-button {
+    margin-bottom: 2px;
+}
