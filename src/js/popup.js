@@ -62,4 +62,8 @@ async function readLocalStorage(key) {
     setTimeout(() => {
         navigator.clipboard.writeText(output);
     }, "300");
+
+    setTimeout(() => {
+        window.close();
+    }, "1000");
 })();

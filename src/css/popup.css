@@ -5,7 +5,7 @@
 
 body {
     width: 270px;
-    animation: fadein 1s;
+    animation: fadein 0.6s;
     font-size: 0.9em;
 }
 
