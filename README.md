@@ -1,5 +1,5 @@
 # copy-paste-url-markdown
-Press Alt+C (or ⌃+C on macOS) to copy "[website's title](website's url)" to the clipboard.
+Press Alt+Shift+C (or ⌃+Shift+C on macOS) to copy "[website's title](website's url)" to the clipboard.
 
 I use a markdown editor to take notes. I want the URLs to be displayed nicely in preview mode, without me having to do the manual editing, hence the creation of this extension.
 
