@@ -45,7 +45,11 @@ async function readLocalStorage(key) {
     const tabTitle = tab.title;
         
     markdownOutput = `[${tabTitle}](${tabUrl})`;
-    markdownOutputNoQueryString = `[${tabTitle}](${tabUrl.split("?")[0]})`;
+    if (tabUrl.includes("youtube")) {
+        markdownOutputNoQueryString = markdownOutput;
+    } else {
+        markdownOutputNoQueryString = `[${tabTitle}](${tabUrl.split("?")[0]})`;
+    }
 
     copyQueryStringButton.dataset.status = copyQueryStringStatus;
 
