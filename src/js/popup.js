@@ -1,8 +1,10 @@
 const announcement = document.getElementById("announcement");
 const copyQueryStringButton = document.getElementById("copy-query-string-button");
+const copyTitleButton = document.getElementById("copy-title-button");
 
 let markdownOutput;
 let markdownOutputNoQueryString;
+let tabTitle;
 let output;
 
 copyQueryStringButton.addEventListener("click", () => {
@@ -24,6 +26,12 @@ copyQueryStringButton.addEventListener("click", () => {
     })
 });
 
+copyTitleButton.addEventListener("click", () =>  {
+    setTimeout(() => {
+        navigator.clipboard.writeText(tabTitle);
+    }, "300");
+})
+
 async function readLocalStorage(key) {
     return new Promise((resolve, reject) => {
         chrome.storage.local.get(key, (data) => {
@@ -42,7 +50,7 @@ async function readLocalStorage(key) {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
     const tabUrl = tab.url;
-    const tabTitle = tab.title;
+    tabTitle = tab.title;
         
     markdownOutput = `[${tabTitle}](${tabUrl})`;
     if (tabUrl.includes("youtube")) {
@@ -69,5 +77,5 @@ async function readLocalStorage(key) {
 
     setTimeout(() => {
         window.close();
-    }, "1000");
+    }, "2200");
 })();
