@@ -1,7 +1,7 @@
 # copy-paste-url-markdown
 Press Alt+Shift+C (or ⌃+Shift+C on macOS) to copy "[website's title](website's url)" to the clipboard.
 
-I use a markdown editor to take notes. I want the URLs to be displayed nicely in preview mode, without me having to do the manual editing, hence the creation of this extension.
+I use a markdown editor to take notes. I want the URLs to be displayed nicely, without me having to do the manual editing, hence the creation of this extension.
 
 Also, the extension has an option to exclude [query string](https://en.wikipedia.org/wiki/Query_string) (if there is any). I just want the URL to look a bit nicer.
 
